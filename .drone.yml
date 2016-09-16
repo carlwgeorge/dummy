@@ -1,0 +1,4 @@
+build:
+  image: carlwgeorge/rpmbuild:el7
+  commands:
+    - rpmbuild -ba dummy.spec 
